@@ -10,7 +10,7 @@ def house_keeping(df):
     gradings = gradings[(gradings.GRADE=='A') | (gradings.GRADE=='B') | (gradings.GRADE=='C')]
     gradings = gradings.drop_duplicates()
     gradings['GRADE DATE'] = pd.to_datetime(gradings['GRADE DATE'])    # change data type to datetime
-    return gradings
+    return gradings.set_index('CAMIS')
 
 def grade_count_series(df):
     """ Take in a data frame and generate series of restaurant count in each grade and their corresponding date. """
@@ -29,7 +29,7 @@ def grade_count_series(df):
             counts.append(copy(count))
             current_date = row['GRADE DATE']
             dates.append(current_date)
-        idx = row['CAMIS']
+        idx = new_df.index[i]
         grade = row['GRADE']
         # Do something if we see the restaurant before
         if idx in previous_grade:
@@ -59,7 +59,7 @@ def plot_grades(counts, dates, name):
     return 1
     
 # Question 3
-def test_grades(grade_list):
+def test_grades(grade_list, reverse=False):
     """ test whether a list of grades has an increasing trend by fit a linear regression model to it """
     n = len(grade_list)
     if n == 1:
@@ -80,13 +80,13 @@ def test_grades(grade_list):
         trend = -1
     else:
         trend = 0
-    return trend
+    return -trend if reverse else trend
 
 def test_restaurant_grades(df, camis_id):
     """ Check if the specified restaurant has an improving trend """
     # Get the list of grades sorted by date
-    grade_list = list(df[df['CAMIS']==int(camis_id)].sort('GRADE DATE')['GRADE'])
-    return test_grades(grade_list)
+    grade_list = list(df.GRADE[df.index==int(camis_id)])
+    return test_grades(grade_list, reverse=True)
 
 def main():
     # Question 2
@@ -99,7 +99,7 @@ def main():
     gradings = house_keeping(df)
 
     # Question 4
-    idxs = gradings['CAMIS'].unique()
+    idxs = gradings.index.unique()
     total = 0
     print 'Calculating trends ...'
     # Calculate value for the whole city
@@ -112,7 +112,7 @@ def main():
     # Calculate the value by borough
     for boro in boroughs[:-1]:    # Rule out missing boroughs
         df_boro = gradings[gradings['BORO']==boro]
-        idxs_boro = df_boro['CAMIS'].unique()
+        idxs_boro = df_boro.index.unique()
         tot = 0
         for idx in idxs_boro:
             tot += test_restaurant_grades(df_boro, idx)
