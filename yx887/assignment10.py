@@ -12,6 +12,13 @@ def house_keeping(df):
     gradings['GRADE DATE'] = pd.to_datetime(gradings['GRADE DATE'])    # change data type to datetime
     return gradings.set_index('CAMIS')
 
+def house_keeping_v2(df):
+    """ Data cleaning for question 6 """
+    new_df = df[['CAMIS', 'BORO', 'CUISINE DESCRIPTION']]
+    new_df = new_df.drop_duplicates()
+    new_df.columns = ['CAMIS', 'BORO', 'DESCRIPTION']
+    return new_df
+
 def grade_count_series(df):
     """ Take in a data frame and generate series of restaurant count in each grade and their corresponding date. """
     n = len(df)
@@ -56,6 +63,35 @@ def plot_grades(counts, dates, name):
     plt.title('Number of Restaurant in Each Grade ({})'.format(name.upper()))
     plt.ylabel('Count')
     plt.savefig('grade_improvement_{}.pdf'.format(name.split(' ')[0]))
+    return 1
+
+def plot_pie(df, name):
+    """ plot a pie chart showing composition of different restaurants """
+    # Get restaurant count group by description in descending order
+    ranking = df.groupby('DESCRIPTION').count().sort('CAMIS', ascending=False)
+    n = ranking.sum()[0] - ranking.ix['Other'][0]
+    # Get top 10 descriptions and their corresponding counts
+    other = n - ranking[:10].sum()[0]
+    labels = list(ranking.index[:10])
+    try:
+        labels.remove('Other')
+    except ValueError:
+        pass
+    sizes = []
+    for label in labels:
+        sizes.append(ranking.ix[label][0])
+    labels = [x.decode('utf8').encode('ascii', 'replace') for x in labels]
+    labels.append('Other')
+    sizes.append(other)
+    
+    cm = plt.get_cmap('gist_rainbow')
+    colors = [cm(x) for x in np.arange(0, 1, 1./len(labels))]
+    
+    plt.figure()    
+    plt.pie(sizes, labels=labels, colors = colors, autopct='%1.1f%%', shadow=True, startangle=90)
+    plt.title('Percentage of Different Restaurants ({})'.format(name))
+    plt.axis('equal')
+    plt.savefig('rest_pie_{}.png'.format(name))
     return 1
     
 # Question 3
@@ -120,13 +156,18 @@ def main():
     for i in range(len(sums)):
         print '{0}: {1}'.format(boroughs[i], sums[i])
 
-    # Question 5
+    # Question 5: There is a general improvement of restaurants going on in the city
     print 'Counting restaurants and plotting ...'
     counts, dates = grade_count_series(gradings)
     plot_grades(counts, dates, 'nyc')
     for boro in boroughs[:-1]:
         counts_boro, dates_boro = grade_count_series(gradings[gradings['BORO']==boro])
         plot_grades(counts_boro, dates_boro, boro.lower())
+
+    # Question 6: We can find out the percentages of American food, Chinese food, Italian food, etc in the whole city and in each borough
+    print 'Cooking pie ...'
+    new_df = house_keeping_v2(df)
+    plot_pie(new_df, 'nyc')    # Only nyc data is used here for demostration
     
 if __name__ == '__main__':
     main()    
