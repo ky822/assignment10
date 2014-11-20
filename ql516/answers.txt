@@ -1,0 +1,22 @@
+Question 3:
+Justification: 
+    if there a grade less than a earlier grade: return -1
+    if all the grade are the same:  return 0
+    else : return 1
+
+Question 4:
+BORO
+BRONX            -364
+BROOKLYN        -1016
+MANHATTAN       -1896
+QUEENS           -936
+STATEN ISLAND    -141
+
+Question 5:
+Conclution:
+1.These six plots have the same pattern: restaurants with grade 'A' increased rapidly in all these boroughs while the restaurant with grade 'B' and 'C ' only show a slight increase.
+2.The increasing speed of 'A' restauranta at the start period is very low. Then it speed up as the curve become steeper. At last, it slows down again. This pattern is similar to the graph of normal distribution's cumulative distribution function.
+
+Question 6:
+1. The dataset can also show the percentage of different inspection types or different cuisines. 
+2. This datasest is useful for assessing the quality of NYC restaurants. For example, the plot 'grade_improvement_nyc' shows there are much more 'A' restaurant than 'B' and 'C' restaurant. And it tends to be more 'A' restaurant in the future.
