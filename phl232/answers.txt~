@@ -1,9 +1,0 @@
-3. The value for test_grades is calculated by taking the sign of the average of the period over period changes. The average period over period change measure the average rating change everytime a review happpens. If this is a positive number, it means ratings are generally going up. If it's negative, it means reviews are going down. As a metric though, this is not that helpful since it is only a measure of change. For reviews, the level is also important. For example, a restuarant with only 'A' grades will generate a 0. 
-
-5. A majority of restaurants have an 'A' health rating. The percentage of restaurant with 'B' and 'C' ratings is going down with time. 
-
-6. You can use this data to look at health ratings by cuisine. From this you can tell which cuisines have, on average, dirtier restaurants. 
-
-Depending on your criteria, this data may or may not be helpful in assessing the quality of a restaurant. This data contains no observations about food quality so it'd be difficult to find a good restaurant using this data. YOu can probably find a clean restaurant, but there are no guarantees that the food is tasty.
-
-  
