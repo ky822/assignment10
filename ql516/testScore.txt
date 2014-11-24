@@ -1,0 +1,28 @@
+Over all restaurant in NYC: 1919 
+ 
+ 
+BORO
+BRONX            215
+BROOKLYN         495
+MANHATTAN        690
+QUEENS           468
+STATEN ISLAND     51
+Name: INPROVE, dtype: int64Over all restaurant in NYC: 1919 
+ 
+ 
+BORO
+BRONX            215
+BROOKLYN         495
+MANHATTAN        690
+QUEENS           468
+STATEN ISLAND     51
+Name: INPROVE, dtype: int64Over all restaurant in NYC: 1919 
+ 
+ 
+BORO
+BRONX            215
+BROOKLYN         495
+MANHATTAN        690
+QUEENS           468
+STATEN ISLAND     51
+Name: INPROVE, dtype: int64
