@@ -1,0 +1,9 @@
+First we need to quantify the list of grades of A, B, and
+C, such that we can have a series of numbers. For this numbers
+we can apply a 2nd polynomial regression which is more precise than
+linear fit but not too complicated. And then we can use the fit to
+compute the slope of the last number in the series for determining
+the trend of the series. If the slope is greater than some values,
+we consider it to be improving, and if the slope is less than some
+values, considering it to be declining. For those whose slopes have
+no significant bias, we take them to be staying the same status.
