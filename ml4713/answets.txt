@@ -1,0 +1,24 @@
+Data Analysis 
+Mengfei Li
+
+
+Question 5
+For either area, A was the most earned grade among restaurants and C was the lest. Also the amount of restaurants that had A_grade shows a general increasing trend and more and more dominated trend. 
+
+Even we are evaluating more and more places through out different years, the number of restaurants getting C maintains roughly the same which indicates a improvement across the time.
+
+
+Question 6
+Here we are looking at 4 different graphs: most frequent cuisine type across the city and percentage of grade for top 10 (or any n numbers) cuisine type.
+
+From the output, we can see that American was the most popular one while Chines comes as the second one. 
+
+Even American has dominated the market, but it is not the one who has the most A grades in its own category and which in this case coffee/tea performs pretty well.
+
+Also, Latin food has received most C_grades in his own portion compared to others.
+
+From the above information we might focus more on why coffee/tea performs so well while latin food needs what kind of change.
+
+
+
+
