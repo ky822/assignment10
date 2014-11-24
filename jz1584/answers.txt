@@ -1,0 +1,31 @@
+Question 5: What conclusion can you draw about the grades?
+
+The overall grade in New York city is not so bad, since the majority of restaurants have Grade A over time.
+
+The Grade in Manhattan has most obvious improvement over time. It seems like Manhattan also has highest proportion of 
+Grade A restaurants. 
+
+The Grade trend of Queens and Brooklyn's restaurants are pretty much the same over time. 
+
+The Staten island seems like has less grade improvement overtime compared to other boroughs. 
+
+The number of grade C restaurants in Bronx seems like decreasing since September 2013. We could't not conclude that Bronx has 
+grade improved a lot since grade c is disappearing. It could be the cases that government shutdown a lot bad grade resturants in Bronx, which needs further investigation.
+
+
+
+Question 6: 
+What other information can you find out using this data? Is the data useful for assessing the 
+quality of restaurants in New York City?
+
+Using this data, we could also find the percentage of restaurant that has grades improved in each borough or New York City over time.
+Since We have generate the total grade for each boroughs. To get the percentage of grade improved restaurants, we 
+could just use the total grade,which generate by summing the test_restaurant_grades(camis_id), divided by the total number of restaurants. 
+
+The quality of restaurants could be monitored by the percent or number of grade A restaurants over time.
+However, many of the grades in the original dataset are missing, which may make the statistics drawed from the data unreliable. 
+Of course, the quality here is not defined by food taste. If we need to investigate the overall quality of the restaurants
+in NYC, we may need to use the restaurants reviews data such as Yep review data to draw the conclusion in more detail. 
+
+
+
