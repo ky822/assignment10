@@ -1,0 +1,8 @@
+Question 5:
+The conclusion about the grades is that the quality of NYC restaurants generally improves over time, and this is also correct in each of the five boroughs. Most of the NYC restaurants have good quality.
+
+Question 6:
+This dataset also can be used to explore the type of restaurants based in NYC(eg. Chinese, Japanese, etc.) and its related proportions to make business decisions when someone would like to open restaurants in NYC.
+The dataset also can reflect how different people in different boroughs like which kind of restaurants.
+
+Generally speaking, the dataset is very good and comprehensive when judging NYC restaurant quality on sanitary and food origin related issues. However, it is not quite that good to assess the specific flavor, style and dining environment of the restaurants 
