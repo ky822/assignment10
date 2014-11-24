@@ -1,0 +1,25 @@
+Question 5:
+Six graphs were generated to show the total number of restaurants for each grade overtime in NYC and in each of the five boroughs.
+From these graphs, I got:
+1) Number of restaurants in A is much more than that in B and C.
+2) Number of restaurants in B and C shows flat trends after the beginning of 2012.
+3) Number of restaurants in A keeps increasing. But the increase speed before mid 2012 is faster than that after mid 2012.
+4) Generally, the safety and hygienic condition of restaurants is improving in NYC and in each of the five boroughs.
+
+Question 6:
+Q: What other information can you find out using this data?
+A: I tried to analyze the situation of top 10 types of restaurants in NYC.
+1) As the figure 'Top_10_restaurant_types_in_NYC.png' shows, sorting by restaurant amount, the top 10 restaurant types are: American, Chinese, Coffee/Tea, Pizza, Italian, Latin, Japanese, Mexican, Bakery and Caribbean. In them, amount of American restaurants is significantly larger than other types.
+2) The figure 'Top_10_grade_score_overtime.png' is to analyze the trends of grades overtime for each restaurant type in NYC.
+   *Note: the Grade_score = (ratio of A)*1 + (ratio of B)*0 + (ratio of C)*(-1),therefore, the overall restaurant condition is better, the score is higher.
+   From this graph, I got:
+   a) The safety and hygienic condition in Coffee/Tea is the best and significantly higher than other types.
+   b) The trends of score overtime is increasing with fluctuating.
+3) The figure 'top_10_corr.png' is to show the correlation between any two restaurant types. From this figure, I got:
+   a) Japanese restaurant is not very correlated with other types of restaurants.
+   b) The correlation between other nine restaurant types are relatively high, which means their grade have similar trends.
+
+Q: Is the data useful for assessing the quality of restaurants in NYC?
+A: This dataset is useful to assess the safety and hygienic condition of restaurants in NYC. As above shows, we can analyze the safety and hygienic condition trends and overall situation for specific boroughs or restaurant types in NYC.
+   But this dataset may not be useful to assess some other quality of restaurants, like taste and service.
+
