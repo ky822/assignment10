@@ -1,0 +1,23 @@
+Question4: 
+The sum of grade changes over all the restaurants in NYC is 1105 
+The sum of grade changes over all the restaurants in STATEN ISLAND is 35 
+The sum of grade changes over all the restaurants in BROOKLYN is 321 
+The sum of grade changes over all the restaurants in BRONX is 131 
+The sum of grade changes over all the restaurants in MANHATTAN is 360 
+The sum of grade changes over all the restaurants in QUEENS is 254 
+
+Question5: 
+These are six graphs as the question asked.
+From these graphs, we could say the curves in each graph are similar.
+1.In all areas, most of restaurants get the grade of A, a small amount of restaurants have B or C.
+2.The number of restaurants having A has been increasing all the time, and between 2012 and 2013 it increased very fast.
+3.The number of restaurants having B or C has been very flat, although between 2012 and 2013 the number of restaurants having B increased a little.
+4.Among these boroughs, the number of restaurants having A in manhattan is the largest, and then in brooklyn,queen,bronx,staten island.
+
+Question6: 
+I found the information about CUISINE DESCRIPTION is also very useful.
+1.From the pie chart, we can compare the percentage of top 10 types restaurants.
+  The top 10 types restaurants are: American, Chinese, Pizza,Italian, Latin,Cafe/Coffee/Tea,Mexican, Japanese, Bakery, Caribbean etc.
+2.From another plot chart, we can compare the grade in these top 10 types restaurants.
+  The restaurants which have the best grade are America, and then Chinese, Pizza,Italian, Latin,Cafe/Coffee/Tea,Mexican, Japanese, Bakery, Caribbean etc,
+  In general, the grades of these restaurants have been increasing, and the quality of NYC restaurants in different types is getting better.
