@@ -1,0 +1,5 @@
+The first figure 'Trend of Inspected Restaurant Numbers.png' shows that when this NYC restaurant grading system launched in 2010, the number of restaurants been inspected per day is very small. One year later, it increased to around 50 per day and kept steady generally.
+
+The second figure 'Cuisine in each area.png' shows that there exists some slight differences in the cuisine type for different boroughs. But most of the case, 'American' and 'Chinese' are the top two cuisine types.
+
+Personally, I think the data is pretty good, it shows the panorama of restaurants in New York. With time moves on and the data covers most restaurants in New York, we would have a valuable restaurant monitoring system.
