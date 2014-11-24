@@ -1,0 +1,8 @@
+Question 3:
+The method I use to determine whether a list of grades is increasing is by fitting a linear function to the grades. I set grade A as a value of 2, grade B as a value of 1, and grade C as a value of 0. The resulting slope of the linear function can tell us the trend. The marginal slope between increasing and staying the same is determined by assuming the sequence A, B, B, B, A, A, A has a increasing trend.
+
+Queation 5:
+Grades are generally increasing in NYC.
+
+Question 6:
+From the data, we can find out the percentages of Italian, Chinese, Japanese restaurant in the whole city and in each borough. 
