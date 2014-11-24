@@ -1,0 +1,10 @@
+Question 5
+From the perspective of NYC, number of grade A restaurants increased largely over time from 2010 to 2014, while number of grade B restaurants decreased slightly and number of grade C restaurants stayed around the same. 
+In Bronx, number of grade A restaurants peaked around May 2013 and May 2014; what's more interesting, there was a large number of grade A restaurants around June 2011 as well. Number of grade B restaurants peaked around May 2012 and June 2014, while number of grade C did not show any drastic change.
+In Queens, number of grade A restaurants went up with small decrease over time, reaching the peak around June 2014. Both number of grade B and C vary quite a bit over the years without general trends.
+In Brooklyn, the numbers of grade A, grade B, grade C restaurants have a mild correlation with each other: they all were the highest around March 2013 and March 2014. The number of grade C restaurants were swinging in a small range. 
+In Manhattan, the number of grade A restaurants were larger than any other time around April 2014, continuing an upward trend with a few peaks. 
+
+Question 6
+We can find out the number of restaurants in each boroughs and the number of different cuisines presented in NYC, as well as the types of violation existing in the restaurants. From the data, we can also see that when the score for a restaurant is low (i.e. close to 1), the sanitary grade is high (i.e. grade A) and thus this restaurant has a good sanitary quality. When the score for a restaurant is high (i.e. close to 100), the grade is low and this restaurant has a lot to improve on its sanitary quality.
+This data is only for assessing the sanitary level of restaurants in NYC, and sanitary criterion makes up a fundamental part of the quality of restaurants. However, the quality of restaurants consists of taste, customer satisfaction, and other factors as well. 
