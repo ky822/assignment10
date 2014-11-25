@@ -38,7 +38,7 @@ def grade_count_series(df):
     return pd.DataFrame(counts), dates
 
 def plot_grades(counts, dates, name):
-    """ Plot time series data """
+    """ Plot time series data, return 1 if succeed """
     plt.figure()
     plt.plot_date(dates, counts['A'], 'r-', label='A')
     plt.plot_date(dates, counts['B'], 'b-', label='B')
@@ -50,7 +50,7 @@ def plot_grades(counts, dates, name):
     return 1
 
 def plot_pie(df, name):
-    """ plot a pie chart showing composition of different restaurants """
+    """ plot a pie chart showing composition of different restaurants, return 1 if succeed """
     # Get restaurant count group by description in descending order
     ranking = df.groupby('DESCRIPTION').count().sort('CAMIS', ascending=False)
     n = ranking.sum()[0] - ranking.ix['Other'][0]
