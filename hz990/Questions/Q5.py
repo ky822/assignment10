@@ -16,7 +16,7 @@ def grade_count(df):
 		df_11 = df[df['GRADE DATE'] <= date] #Select sub-DataFrame with same date
 		df_11['CAMIS'] = df_11.index
 		df_12 = df_11.sort(columns='GRADE DATE', ascending=False) # Sort by date
-		df_1 = df_12.drop_duplicates(cols='CAMIS')# Drop duplicates in order to count
+		df_1 = df_12.drop_duplicates(['CAMIS'])# Drop duplicates in order to count
 		grade_count_tmp = []
 		for grade in ['A', 'B', 'C']:
 			df_2 = df_1[df_1.GRADE == grade] #Select same grade
