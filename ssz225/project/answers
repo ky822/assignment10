@@ -1,0 +1,26 @@
+Question 5.
+It appears that overall, the grades for NYC restaurants have increased.
+The overall grades for each borough have also increased.
+While the number of restaurants earning A's have increased dramatically since 2011, 
+the number of B's and C's have remained relatively stable since 2011.
+The general shape of the distribution across time is mimicked across all boroughs. 
+The number of A's (and overall activity in awarding of grades) appear to peak every 
+year around May across all boroughs. Low activity points generally land in the fall months.
+There was a gap in grading activity in November 2012.
+
+The sum of test_restaurant_grades for all restaurants is: 2086
+The sum of test_restaurant_grades for all restaurants in MANHATTAN is: 754
+The sum of test_restaurant_grades for all restaurants in QUEENS is: 500
+The sum of test_restaurant_grades for all restaurants in BROOKLYN is: 542
+The sum of test_restaurant_grades for all restaurants in STATEN ISLAND is: 54
+The sum of test_restaurant_grades for all restaurants in BRONX is: 232
+
+
+Question 6.
+The dataset also includes information on the reasoning behind the grades and provides
+insights on which violations were triggered. This information provides insight on which
+issues are most widespread in the restaurant industry in NYC, which can be useful in 
+forming policies to address these issues in order of commonality to improve restaurant quality.
+
+Grouping by the Cuisine Description, it is possible to see that perhaps restaurants
+serving certain cuisine types are in need of more scrutiny in quality than others. 
