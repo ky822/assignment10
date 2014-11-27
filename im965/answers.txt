@@ -1,0 +1,28 @@
+### Answeres.txt, additional answers for assignment 10 
+### Israel Malkin, im975
+
+2) Justification for setting grade changes
+I decided to compare the earliest and latest values in order to asses the change in the grades across time.
+This approach is robust to the number of grades. Additionally, it seems like a straightforward way to handle
+the resturants that have gone both up and down since the first grade was recorded. Finally, I think what people
+care about most is the current grade, so it is nice that this measure incoporates this notion.
+
+5B) What conclusion can you draw about the grades?
+Both at the city level and for each of the boroughs, the number of restaurants being included in the rating files
+increases a lot in the last couple of years.  The number of B's and C's (both at the city and borough) level do 
+not change that much. This observation, along with the fact that not that many resturant improved their grades
+(see the additional PDF file I generated, 'nyc_grade_tests.pdf) makes it clear that the new restaurants have been
+getting mostly A's.
+
+6) What other info can you find out using this data? Is it useful for assessing the quality of restaurants in NYC?
+There are many different things we can inspect using this data, although there are not many informative variables,
+using a little creativity we can make some neat observations. For example, I generated a plot (grade_by_type.pdf) that
+presents a bar plot if the grade distribution for restaurants that are label as "Chinese" or "Italian". 
+So in this example, we are able to use the data to investigate the grades profile for particular cuisine types.
+
+Overall, the data is quite useful in assesing the quality of restaurant grade inspections, but not necessarily
+the overall quality of the restaurants. There are many different way to slice and dice the data in order to ask 
+different questions.  The dataset provides us with a good source of information about restuarant grades across the 
+entire city and within each borough, but it does not provide much info beyond just the grades. Another avenue which
+I choose not to explore is the type of violations which occur. Perhaps different types of cuisines or different boroughs
+are more suceptible to a particular infraction.
