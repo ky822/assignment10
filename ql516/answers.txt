@@ -1,0 +1,28 @@
+Question 3:
+Justification:
+    First, set a counter variable, start with zero. Notice that the grade has already been sorted by date and the first one is the latest grade. 
+    Run a loop to check every grade:
+	if the grade greater than its earlier grade: counter+1
+	if the grade less than its earlier grade: counter-1
+    After the loop, 
+	if counter > 0 return 1, that means the grade improved;
+	if counter < 0 return -1, that means the grades declined
+	else return 0
+
+Question 4:
+Over all restaurant in NYC: 1919
+BORO
+BRONX            215
+BROOKLYN         495
+MANHATTAN        690
+QUEENS           468
+STATEN ISLAND     51
+
+Question 5:
+Conclution:
+1.These six plots have the same pattern: restaurants with grade 'A' increased rapidly in all these boroughs while the restaurant with grade 'B' and 'C ' only show a slight increase.
+2.The increasing speed of 'A' restaurant at the start period is very low. Then it speed up as the curve become steeper. At last, it slows down again. This pattern is similar to the graph of normal distribution's cumulative distribution function.
+
+Question 6:
+1. The dataset can also show the percentage of different inspection types or different cuisines. 
+2. This dataset is useful for assessing the quality of NYC restaurants. For example, the plot 'grade_improvement_nyc' shows there are much more 'A' restaurant than 'B' and 'C' restaurant. And it tends to be more 'A' restaurant in the future. So we can learn from it that the quality of NYC restaurant is generally good and are still improving now.
