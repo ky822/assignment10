@@ -1,0 +1,14 @@
+From six pie graphs for GRADE, we learn that in general, about 70% of restaurants in NYC received A,
+more than 22% receive B and 7% receive C. The restaurants in STATEN ISLAND perform best, as it shows 
+a highest percentage of A and a lowest percentage of C while the restaurants in BROOKLYN performs worst.
+
+From six pie graphs for Top 8 CUISINE DESCRIPTION, we can see which types of restaurants are popular among the area.
+Overall, American food is always the TOP 1 popular restaurant. Manhattan people seems more prefer Italian, Chinese,
+and Japanese; while in BROOKLYN people more prefer Chinese, Caribbean and Pizza.
+
+From our grade standard, we can see that the quality of restaurants has been imporved overtime. Restaurants in QUEENS 
+have improved most, while those in STATEN ISLAND have improved least.
+However, one problem in our linear regression model is that, since our total number records for each restaurant is quite 
+small, the result could be sensitive. For example, different thresholds such as (0,2,-0.3),(0.3,-0.3) could lead to 
+completely different conclusion. Thus, in reality, in order to get more accurate result, we should set the threshold
+by past experience as well as providing more useful data for each restaurant.
