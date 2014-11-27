@@ -1,0 +1,11 @@
+The top 3 violations codes in NYC are 10F, 08A, and 02G, which means
+"Non-food contact surface improperly constructed," "Facility not vermin proof,"
+and "Cold food item held above 41F." The top 1 code is common for all the five
+boroughs, and it is significantly more frequent than other codes. However, 
+in Bronx, the code 04L is the 2nd frequent code, which means there is evidence
+of mice or live mice present in facility's food and/or non-food areas.
+Furthermore, in Staten Island we can see that the codes 10B and 06D also appear
+a lot, indicating that plumbing is not properly installed or maintained and
+food contact surface not properly washed. These data show that each borough
+has its own local restaurant issues and problems.
+

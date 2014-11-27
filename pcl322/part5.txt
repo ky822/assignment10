@@ -1,0 +1,6 @@
+During Sep 2011 to Apr 2012, the number of restaurants graded A is increasing
+rapidly. On the other hand, the number of restaurants graded B and C have
+stayed stable from 2012 until now, but at the same time the number of A
+is constantly growing. The trends of the five boroughs are very similar to
+each others, indicating that the performance of restaurants within NYC
+does not vary from borough to borough, even in staten island. 

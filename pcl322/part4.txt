@@ -1,0 +1,7 @@
+                Sum
+BRONX           102
+BROOKLYN        361
+MANHATTAN       687
+QUEENS          284
+STATEN ISLAND    49
+NYC            1483
