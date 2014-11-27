@@ -1,0 +1,2 @@
+The grades in city of New York and five boroughs generally improved during the time interval 2010-2014.
+Restaurants with grade A increased faster than other grades, which is a good signal. However, we should also notice that restaurants with Grades P and Z also slightly ascended.
