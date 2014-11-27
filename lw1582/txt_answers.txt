@@ -1,0 +1,11 @@
+Problem 5:
+The number of restaurants have been increasing over time.
+The majority of restaurants have grade A.
+From 2011 to 2013, an increasing number of restaurants in each borough received grade C, except for in Staten Island from 2011 to 2012
+
+Problem 6:
+Other information can that we can find out using this data includes:
+- growth in # of restaurant by borough, zipcode, etc.
+- popularity of different types of cuisine  and change over time
+
+this dataset is good for assessing health grade and quality of restaurants in nyc over the past 4 years. However, it does not provide any information about the food quality of restaurants, which is an important factor most restaurant goers care about
