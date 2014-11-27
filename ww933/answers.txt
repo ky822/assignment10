@@ -1,0 +1,38 @@
+Question 5:
+           What conclusion can you draw about the grades?
+
+1. All the restaurants in NYC or it's five boroughs receive far more A grades than B, and more B grades than C.
+2. In general, all the restaurants in NYC or it's five boroughs are having more and more As from 2010-2014, while the
+   number of Bs or Cs remains stable over time.
+3. NYC and it's five boroughs share almost the same upward and downward trends for the total number of restaurants with
+   A grades over time.
+   For example, they all reach a peak around December 2011, April 2013 and April 2014, while hit a low point around July
+   2012, July 2013 and July 2014.
+
+
+Question 6:
+           What other information can you find out using this data?
+
+   I think by checking SCORE column, I can find out many useful information. So, I googled DOHMH and learned something:
+    "The lower the number score, the better the inspection, with a score of 28 or higher constituting a failing grade."
+   So I guess by looking at SCORE column in the data set, I can find out more detailed information about a restaurant's
+sanitary situation. For example, I can compare a restaurant's score with others to check the restaurant's relative
+sanitary circumstances. Besides, I can plot a line chart to see the changes of a restaurant's sanitary score, as well as
+the total number of restaurants who passed the inspection(i.e. with a score lower than 28) over time. I also realized
+that there is a pattern between SCORE and GRADE value, so I dug up deeper on Google and found this information:
+    0-13 Points = "A"
+    14-27 Points = "B"
+    28+ Points = "C"
+   Using this grading rule, I think, I may fill in some missing numbers under the SCORE column and reanalysis the data
+set to get more accurate analysis results. I can also find out the connections between the SCORE and CUISINE TYPE by
+plotting certain figures. However, since there are more than 80 Cuisine types, this is not an easy task. So in my codes,
+I just chose certain cuisine types to fulfill this goal as an example, instead of analysing the whole data set.(Check
+the last part in assignment10.py to see the related codes.) And the figure I presented as Question6.pdf shows that, for
+Chinese restaurants, the average rate to pass an inspection is less than 80%, which is lower than the other five types.
+
+
+           Is the data useful for assessing the quality of restaurants in New York City?
+
+   The data is only useful to assess the sanitary quality of restaurants in NYC, but not the taste or other aspects.
+For instance, by checking the SCORE or GRADE column, I can assessing the sanitary quality of restaurants in NYC as well
+as the sanitary quality of a certain restaurant comparing to others.
