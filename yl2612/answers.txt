@@ -1,0 +1,13 @@
+Q2: The method I used for determining the improvement can reduce the influence of outliers, which returns a better estimate on the improvement over time. 
+If the median grade after the first grade is larger than the first grade, I think I can draw a conlusion that the restaurant is improving over time.
+
+Q5: The number of restaurants having Grade A is larger than that having Grade B and C.
+The number of restaurants in Grade A is substantially increasing over time, while the number of restarurants in Grade B and C are not decreasing, 
+which indicates that more and more high quality restaurants are opening up. Therefore it is hard to tell if the existing restaurants are improving.
+
+Q6a:I can also use the data to find out the number of restaurants in serveral top cuisines. 
+Most restaurant offers American cuisine; Chinese cuisine has the second largest number of restarurants; pizza, cafe and italian cusine are aslo the top cuisines in the NYC. 
+
+Q6b: For the data I selected for Q6, no.
+For the data I used for assessing improvement, yes. 
+However, the graph for Q5 can assess the quality of restaurants in NYC as whole, but not the quality improvement for each restaurant over time, which we should run an analysis as well.
