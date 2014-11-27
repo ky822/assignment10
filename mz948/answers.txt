@@ -1,0 +1,11 @@
+Question 5:
+1. Overall, the restaurants in New York City (NYC) have improved since November 2010. The number of restaurants in NYC that received grade A has been significantly increased, while the number of restaurants that received other grades has no vital changes. 
+2. The number of restaurants in Staten that received grade A reached its peak during October 2013. Its overall grades have improved. 
+3. It is interesting to notice that the number of restaurants in Manhattan that received grade Z has greatly increased since May 2014. However, most of the restaurants in Manhattan received grade A.
+4. The distribution of restaurants’ grades in Brooklyn is very similar to the distribution of the ones in Manhattan.
+5. The number of restaurants in Queens that received grade A reached its peak during July 2014.
+
+Question 6:
+1. The data contains the violation descriptions of those restaurants. We can find out the major violations and warn people about those violations. Additionally, the inspectors can pay specific attentions to those major violations at next inspection. 
+2. We can also use the data to find the top kinds of cuisine that have received high grades during the past years. Those top kinds of cuisine indicates people’s preference in NYC. Furthermore, we can make comparison of people’s tastes within different areas in New York State. 
+3. In addition to learning people’s preference, we should also take a deeper look into the restaurants that have no inspection data. We can plot the demographic distribution of those restaurants to see if there is correlation between the location and the restaurants without inspections. 
