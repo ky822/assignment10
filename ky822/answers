@@ -1,0 +1,18 @@
+Question 3: First, I set a count which is 0. Starting from the second item of the grade list, I compare the value of grade for each item in the list with the previous one. If
+            the previous value of grade for the restaurant is bigger, it means the grade is not improving. Then the count plus -1. If the previous value of grade is smaller, 
+            it means that the grade for the restaurant is improving. Then the count plus 1. If the value of grade doesn't change, the count remains the same. Finally, we can get 
+            a count for the whole grade_list. When the final count is positive, it means the grades are improving. When the final count is negative, it means the grades are declining.
+            
+Question 4: The sum of grades for all restaurants is 1938.
+            The sum of test_restaurant_grades for all the restaurants in MANHATTAN is 704.
+            The sum of test_restaurant_grades for all the restaurants in QUEENS is 465.
+            The sum of test_restaurant_grades for all the restaurants in BROOKLYN is 497.
+            The sum of test_restaurant_grades for all the restaurants in STATEN ISLAND is 54.
+            The sum of test_restaurant_grades for all the restaurants in BRONX is 214.
+
+Question 5: Restaurants with grade 'A' is more than grade 'B' and 'C'. The number of restaurants with grade 'A' increased rapidly during Nov. 2010 and Nov. 2011. Generally, the grades of 
+            the restaurants are improved.
+            
+Question 6: We can form a pie by using the CUISINE DESCRIPTION in this data to show the percentages of top 10 cuisines in NYC restaurants.Thus, we can make a guess on customers' favors.
+            It seems that American, Chinese, Tea and coffee and Italian are the most popular four cuisines in NYC. Generally, I think the data is useful for assessing the quality of restaurants 
+            in New York City. It contains information of restaurants with varieties of cuisines from all Boroughs in New York.

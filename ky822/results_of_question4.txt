@@ -1,0 +1,7 @@
+
+The sum of grades for all restaurants is 1938
+The sum of test_restaurant_grades for all the restaurants in MANHATTAN is 704
+The sum of test_restaurant_grades for all the restaurants in QUEENS is 465
+The sum of test_restaurant_grades for all the restaurants in BROOKLYN is 497
+The sum of test_restaurant_grades for all the restaurants in STATEN ISLAND is 54
+The sum of test_restaurant_grades for all the restaurants in BRONX is 214
